@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import random
 
-def filtrar_y_transformar_sensores():
+def generar_caso_de_uso_filtrar_y_transformar_sensores():
     """
     Genera un caso de prueba aleatorio (input y output esperado)
     para la función filtrar_y_transformar_sensores.
@@ -53,7 +53,7 @@ def filtrar_y_transformar_sensores():
 
 
 if __name__ == "__main__":
-    i, o = filtrar_y_transformar_sensores()
+    i, o = generar_caso_de_uso_filtrar_y_transformar_sensores()
 
     print("---- inputs ----")
     for k, v in i.items():
