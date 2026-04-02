@@ -17,11 +17,13 @@ def generar_caso_de_uso_aplicar_label_encoding():
 
     columna = 'categoria'
 
+    # INPUT
     input_data = {
         'df': df.copy(),
         'columna': columna
     }
 
+    # OUTPUT
     df_out = df.copy()
 
     encoder = LabelEncoder()
