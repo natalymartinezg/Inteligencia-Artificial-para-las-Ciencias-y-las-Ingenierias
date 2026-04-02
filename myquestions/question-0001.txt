@@ -2,7 +2,7 @@ El Problema:
 En el monitoreo de procesos industriales, los sensores a menudo presentan picos de lectura (outliers) y distribuciones sesgadas. Para que un modelo de Machine Learning funcione correctamente, es necesario suavizar estos datos y normalizar su distribución.
 
 Tu Misión:
-Escribe una función llamada filtrar_y_transformar_sensores(df, columna_sensor) que:
+Escribe una función llamada generar_caso_de_uso_filtrar_y_transformar_sensores(df, columna_sensor) que:
 
 1. Reemplace valores NaN con la mediana de la columna.
 2. Identifique valores por encima del percentil 95 y los reemplace por ese percentil (winsorización).
