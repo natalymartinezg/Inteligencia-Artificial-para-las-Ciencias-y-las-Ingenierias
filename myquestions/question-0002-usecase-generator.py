@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import random
 
-def generar_caso_de_uso_calcular_variacion_por_grupo():
+def calcular_variacion_por_grupo():
     """
     Genera un caso de prueba aleatorio (input y output esperado)
     para la función calcular_variacion_por_grupo.
@@ -34,7 +34,7 @@ def generar_caso_de_uso_calcular_variacion_por_grupo():
 
 
 if __name__ == "__main__":
-    i, o = generar_caso_de_uso_calcular_variacion_por_grupo()
+    i, o = calcular_variacion_por_grupo()
 
     print("---- inputs ----")
     for k, v in i.items():
